@@ -1,0 +1,29 @@
+.img-custom{
+    width: 132px;
+    height: 50px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.bottom-footer-menu{
+    display: block;
+    text-align: right;
+}
+.bottom-footer-menu li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 10px;
+}
+
+.bottom-footer-menu li a{
+    text-decoration: none;
+}
+.footer-bottom-section{
+    border-top: 2px solid red;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.footer-section{
+    border-top: 2px solid red;
+    padding: 40px 0px 10px;
+}

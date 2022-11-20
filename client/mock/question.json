@@ -1,0 +1,79 @@
+{
+    "editor_options": [
+        {
+            "active": 1,
+            "id": 1,
+            "language": "Python - 3.10",
+            "question_template": "python code template",
+            "question_test_code": "python test code"
+        },
+        {
+            "active": 1,
+            "id": 2,
+            "language": "JavaScript - Node v16.x",
+            "question_template": "js code template",
+            "question_test_code": "js test code"
+        },
+        {
+            "active": 1,
+            "id": 3,
+            "language": "Java - 17",
+            "question_template": "java code template",
+            "question_test_code": "java test code"
+        }
+    ],
+    "question": {
+        "constraints": "2 <= nums.length <= 104\n-109 <= nums[i] <= 109\n-109 <= target <= 109\nOnly one valid answer exists.",
+        "difficulty": 1,
+        "prompt": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.\n\nYou may assume that each input would have exactly one solution, and you may not use the same element twice.\n\nYou can return the answer in any order.",
+        "question_name": "sum-of-two-numbers",
+        "title": "Sum of Two Numbers",
+        "topic": "2"
+    },
+    "question_examples": [
+        {
+            "example_order_id": 1,
+            "explanation": "Because nums[0] + nums[1] == 9, we return [0, 1].",
+            "input": "nums = [2,7,11,15], target = 9",
+            "output": "[0,1]",
+            "question_name": "sum-of-two-numbers"
+        },
+        {
+            "example_order_id": 2,
+            "explanation": "",
+            "input": "nums = [3,2,4], target = 6",
+            "output": "[1,2]",
+            "question_name": "sum-of-two-numbers"
+        },
+        {
+            "example_order_id": 3,
+            "explanation": "",
+            "input": "nums = [3,3], target = 6",
+            "output": "[0,1]",
+            "question_name": "sum-of-two-numbers"
+        }
+    ],
+    "question_submissions": [
+        {
+            "language_id": 1,
+            "question_id": 1,
+            "submission_code": "asdfasdf",
+            "submission_date": "2022-11-05T21:08:27",
+            "submission_status": "2"
+        },
+        {
+            "language_id": 2,
+            "question_id": 1,
+            "submission_code": "asdfasdf",
+            "submission_date": "2022-11-05T21:07:56",
+            "submission_status": "2"
+        },
+        {
+            "language_id": 2,
+            "question_id": 1,
+            "submission_code": "const highFrequency = function(nums){\n    const hash = {}\n    let max = 0\nconsole.log('ahhhh')\n    for (let i = 0; i < nums.length; i++) {\n        if (nums[i] in hash) {\n            hash[nums[i]] = hash[nums[i]] + 1\n            if (hash[nums[i]] > max) {\n                max = hash[nums[i]]\n            }\n\n        } else {\n            hash[nums[i]] = 1\n            if (hash[nums[i]] > max) {\n                max = hash[nums[i]]\n            }\n        }\n    }\n\n    return max\n}\n\nmodule.exports = highFrequency",
+            "submission_date": "2022-10-26T02:34:58",
+            "submission_status": "1"
+        }
+    ]
+}

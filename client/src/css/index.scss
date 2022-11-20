@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F5F5F5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+label {
+  font-size: 20px;
+}
+
+input {
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.site-title {
+  font-size: 2rem;
+  font-family: "Myriad Pro";
+}
+
+Nav.Link {
+  font-family: "Myriad Pro";
+}
+
+.language-icons {
+  font-size: 2rem;
+}
+
+.language-select {
+  width: 12rem;
+  font-family: "Myriad Pro";
+}
+
+.test-result-accordian {
+  padding-bottom: 1rem;
+}
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.console-output{
+  white-space: pre-wrap;
+}
+
+.login-component{
+  margin: auto;
+  width: 25rem;
+  padding: 3rem;
+  background-color: #ffffff;
+}
+
+.login-page{
+  margin-top: 5rem;
+}
+
+.register-component{
+  margin: auto;
+  width: 25rem;
+  padding: 3rem;
+  background-color: #ffffff;
+}
+
+.register-form-control{
+  margin-bottom: 1rem;
+}
+
+.btn-social {
+  padding-left: 64px;
+  position: relative;
+  z-index: 1;
+  --bs-btn-color: #ffffff;
+  margin: 20px 0;
+  display: block;
+  padding: 15px 15px;
+  width: 19rem;
+
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all .2s ease-in-out;
+    box-shadow: inset 0 3px 0 hsla(0, 0, 0, 0), 0 3px 3px hsla(0, 0, 0, .2);
+    border-radius: 5px;
+  }
+  
+  &:hover::after {
+    background: hsla(0, 0, 0, 0.1);
+    box-shadow: inset 0 2px 0 hsla(0, 0, 0, 0.2);
+  }
+}
+
+.fa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 40px;
+  height: 100%;
+  text-align: center;
+  // background: hsla(0, 0, 0, 0.1);
+  line-height: 3.2;
+  border-radius: 5px 0 0 5px;
+  margin-left: .5rem;
+}
+
+.btn-github {
+  background-color: #171515;
+  border-color: #ffffff;
+}
+.btn-google {
+  background-color: #DE5246;
+  border-color: #ffffff;
+}
+.btn-linkedin {
+  background-color: #0072b1;
+  border-color: #ffffff;
+}
+
+.topic-card-link {
+  color: #FFF
+}
+
+.topic-card-link:hover {
+  color: #F7F6F6
+}
+
+.question-tabs {
+  background-color: #FFF
+}
+
+.question-tab {
+  background-color: #FFF;
+  padding: 1rem;
+}
+
+.accepted-subission-status {
+  color: green	;
+}
+
+.rejected-submission-status {
+  color: red
+}

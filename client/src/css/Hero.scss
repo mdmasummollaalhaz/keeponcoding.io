@@ -1,0 +1,26 @@
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0px 30px 70px 30px;
+    padding: 30px 30px;
+    border-radius: 5px;
+}
+
+.hero-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+button{
+    font-size: 20px;
+    color: #fff;
+    background-color: #4424a9;
+    border: #4424a9;
+    border-radius: 4px;
+    padding: 8px 20px;
+}
+.heroRow{
+    align-items: center;
+}
