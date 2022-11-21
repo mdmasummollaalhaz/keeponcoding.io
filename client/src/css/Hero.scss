@@ -3,7 +3,7 @@
     width: 100%;
     height: 100%;
     margin: 0px 30px 70px 30px;
-    padding: 30px 30px;
+    padding: 300px 220px 150px 220px;
     border-radius: 5px;
 }
 
@@ -12,6 +12,14 @@
     height: 100%;
     object-fit: cover;
     position: absolute;
+}
+.hero-title{
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 100px;
+}
+.paragraph{
+    font-size: 20px;
 }
 button{
     font-size: 20px;

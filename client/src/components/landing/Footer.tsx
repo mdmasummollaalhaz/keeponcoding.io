@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
                 {/* First Part  */}
                 <div className="row">
                     <div className="col-md-12">
-                        <h1 className="text-center">Keep On Coding <FontAwesomeIcon icon={faHeart} /></h1>
+                        <h1 className="text-center">Keep On Coding</h1>
                         <p className='w-50 mx-auto text-center'>At LeetCode, our mission is to help you improve yourself and land your dream job. We have a sizable repository of interview resources for many companies. In the past few years, our users have landed jobs at top companies around the world.</p>
 
                     </div>

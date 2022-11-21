@@ -11,13 +11,13 @@ const Hero: React.FC = ({}) => {
     return (
         <div className="hero">
             <Container>
-                <Row className="heroRow">
-                    <Col>
+                <Row className="heroRow mx-auto text-center">
+                    {/* <Col>
                         <img src={heroImg} alt="Travel" className="w-100" />
-                    </Col>
+                    </Col> */}
                     <Col>
                         <h1 className="hero-title">A New Way to Learn</h1>
-                        <p>LeetCode is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.</p>
+                        <p className="paragraph">KeepOnCoding is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.</p>
                         <button>Create Account <FontAwesomeIcon className="icons" icon={ faAngleRight }/> </button>
                         
                     </Col>

@@ -1,3 +1,22 @@
 nav.navbar.navbar-expand-lg.navbar-light {
-    display: none;
+    // display: none;
+}
+.logo{
+    width: 3%;
+    height: auto;
+    // border-radius: 50px;
+    margin-right: 5px;
+}
+.site-title {
+    display: contents;
+}
+.navMenu{
+    margin-left: 30px;
+}
+.nav-link{
+    font-size: 20px;
+    font-weight: 500;
+}
+.navbar{
+    border-bottom: 1px solid #3836363f;
 }

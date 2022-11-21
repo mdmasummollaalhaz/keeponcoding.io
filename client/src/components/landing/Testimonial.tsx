@@ -1,4 +1,5 @@
 import { Col, Container, Row } from 'react-bootstrap';
+import '../../css/Testimonial.scss'
 // Company Logos 
 import googleLogo from '../../media/img/testimonial/company-logo/google.png';
 import amazonLogo from '../../media/img/testimonial/company-logo/amazon.png';
@@ -36,7 +37,7 @@ const Testimonial: React.FC = () => {
       "designation": "Software Engineer",
       "userImage": imageOne,
       "companyLogo" : googleLogo,
-      "feedback": "AlgoExpert was the backbone of my technical coding interview preparation. It allows you to efficiently work through the most common variations of problems asked by top-tier companies without having to spend hours 'battling' an algorithm only to come up with an inefficient or incorrect solution. There are a lot of resources available for repetition, but AlgoExpert differentiates its product by providing the 'how' and 'why' in clear and concise videos. Developing a deeper understanding of how to approach these problems is better than trying to memorize lines of code. I highly recommend AlgoExpert."
+      "feedback": "KeepOnCoding was the backbone of my technical coding interview preparation. It allows you to efficiently work through the most common variations of problems asked by top-tier companies without having to spend hours 'battling' an algorithm only to come up with an inefficient or incorrect solution. There are a lot of resources available for repetition, but AlgoExpert differentiates its product by providing the 'how' and 'why' in clear and concise videos. Developing a deeper understanding of how to approach these problems is better"
     },
     {
       "id": 2,
@@ -44,7 +45,7 @@ const Testimonial: React.FC = () => {
       "designation": "Sr. Software Engineer",
       "userImage": secondUser,
       "companyLogo" : amazonLogo,
-      "feedback": "As a scientist who was looking to break into Tech, I knew the underlying logic of programming, but I had a lot of gaps in my understanding, especially on the types of algorithms questions asked at interviews. I can confidently say that AlgoExpert is one of the best resources out there for interview preparation, with fantastic video tutorials and an excellent question selection that allows you to get a deep understanding of the topics and confidence in your problem solving ability. The site is incredibly intuitive to use and I think that the staff are some of the best out there, being incredibly supportive and passionate about offering a great customer experience. I cannot recommend AlgoExpert highly enough."
+      "feedback": "As a scientist who was looking to break into Tech, I knew the underlying logic of programming, but I had a lot of gaps in my understanding, especially on the types of algorithms questions asked at interviews. I can confidently say that AlgoExpert is one of the best resources out there for interview preparation, with fantastic video tutorials and an excellent question selection that allows you to get a deep understanding of the topics and confidence in your problem solving ability. The site is incredibly intuitive to use"
     },
     {
       "id": 3,
@@ -104,7 +105,7 @@ const Testimonial: React.FC = () => {
   }
   console.log( 'start',start, end,'end' )
   return (
-    <div className='container'>
+    <div className='container tSection'>
       <div className='row'>
         <div className='col-md-12'>
           <h1 className="text-center py-5">
@@ -115,14 +116,14 @@ const Testimonial: React.FC = () => {
       <div className='row'>
           {
             data.slice(start,end).map(( topic, index ) => {return (
-              <div key={index} className="col-md-4">
+              <div key={index} className="col-md-4 tBox">
                 <div className='text-center'>
                   <img src={topic.userImage} alt="" className='rounded-circle'/>
-                  <p>{topic.name}</p>
+                  <p className='tName'>{topic.name}</p>
                   <p>{topic.designation}</p>
-                  <img src={topic.companyLogo} alt="" />
+                  <img src={topic.companyLogo} alt="" className='tImg'/>
                 </div>
-                  <p>
+                  <p className='feedback'>
                       {topic.feedback}
                     </p>
               </div>
