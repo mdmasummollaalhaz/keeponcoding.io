@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
         <div className='footer-section'>
             <div className="container">
                 {/* First Part  */}
-                <div className="row">
+                <div className="row bTop">
                     <div className="col-md-12">
                         <h1 className="text-center">Keep On Coding</h1>
                         <p className='w-50 mx-auto text-center'>At LeetCode, our mission is to help you improve yourself and land your dream job. We have a sizable repository of interview resources for many companies. In the past few years, our users have landed jobs at top companies around the world.</p>
@@ -31,7 +31,6 @@ const Footer: React.FC = () => {
                     <div className="col-md-12">
                         <div className='d-flex flex-wrap justify-content-center'>
                             <img src={facebook} alt="" className='img-custom' />
-                            <img src={apple} alt="" className='img-custom' />
                             <img src={uber} alt="" className='img-custom' />
                             <img src={squarespace} alt="" className='img-custom' />
                             <img src={leapMotion} alt="" className='img-custom' />
